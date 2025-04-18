@@ -26,7 +26,7 @@ const Navbar = ({ about, product }) => {
           </div>
           <button
             onClick={handleClick}
-            className="text-black font-extrabold text-2xl lg:hidden"
+            className="text-[#801336] font-extrabold text-2xl lg:hidden"
           >
             {on ? "✖" : "☰"}
           </button>
