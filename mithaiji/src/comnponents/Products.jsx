@@ -36,7 +36,7 @@ const Products = () => {
   };
 
   return (
-    <div>
+    <div className="mt-5">
       <h2 className="text-3xl font-bold text-center text-[#801336] mb-6">
         Products
       </h2>

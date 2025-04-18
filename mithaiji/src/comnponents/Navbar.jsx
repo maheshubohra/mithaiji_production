@@ -26,12 +26,12 @@ const Navbar = ({ about, product }) => {
           </div>
           <button
             onClick={handleClick}
-            className="text-black font-extrabold text-2xl"
+            className="text-black font-extrabold text-2xl lg:hidden"
           >
             {on ? "✖" : "☰"}
           </button>
           {on && (
-            <ul className="fixed top-17 w-full flex flex-col gap-4 px-5 py-2 bg-[#FFEFEA] rounded-lg shadow-2xl text-[#801336] lg:hidden">
+            <ul className="fixed top-17 w-full flex flex-col gap-4 px-5 py-2 bg-[#FFF8F5] rounded-lg shadow-2xl text-[#801336] lg:hidden">
               <li className="hover:text-[#FFA987] cursor-pointer">
                 <a onClick={about}>About</a>
               </li>
