@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+  .hero-slider .slick-slide:not(.slick-center) img {
+    filter: blur(15px);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+  }
+}
