@@ -93,7 +93,7 @@ const Navbar = ({ about, product }) => {
                 <a onClick={product}>Products</a>
               </li>
               <li className="hover:text-[#FFA987] cursor-pointer">
-                <Link href="/contactus">Contact</Link>
+                <Link to="/contactus">Contact</Link>
               </li>
             </ul>
           )}
