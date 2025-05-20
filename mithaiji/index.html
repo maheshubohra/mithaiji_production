@@ -3,65 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/assets/mithaiji02.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mithaiji | Authentic Indian Sweets & Savouries</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Mithaiji Chennai | Authentic Indian Sweets & Savouries | Traditional Mithai & Ghee Sweets</title>
 
     <meta
       name="description"
-      content="Mithaiji is a cloud kitchen crafting authentic Indian sweets and savouries using pure ghee and top-quality ingredients. Perfect for corporate gifting, wedding hampers, and festive boxes."
+      content="Order authentic Indian sweets & savouries in Chennai from Mithaiji. Pure ghee, traditional recipes, perfect for festivals, weddings & corporate gifts."
     />
+
     <meta
       name="keywords"
-      content="Mithaiji, Indian sweets, cloud kitchen, corporate gifting, wedding hampers, festive sweets, mithai, traditional sweets, boondi sev, kaju katli"
+      content="Mithaiji, Chennai mithai, Indian sweets, traditional sweets, ghee sweets, corporate gifting, wedding hampers, festive sweets"
     />
-    <meta name="author" content="Mithaiji" />
-    <link rel="canonical" href="https://mithaiji.in/" />
+
+    <link rel="canonical" href="https://mithaiji.vercel.app/" />
 
     <!-- Open Graph -->
-    <meta
-      property="og:title"
-      content="Mithaiji | Authentic Indian Sweets & Savouries"
-    />
+    <meta property="og:title" content="Mithaiji | Authentic Indian Sweets & Savouries" />
     <meta
       property="og:description"
-      content="Crafting authentic Indian sweets with pure ghee and love. Explore our corporate gifts, festive boxes, and more from our cloud kitchen."
+      content="Crafting authentic Indian sweets with pure ghee and love. Explore our corporate gifts, festive boxes, and more from our cloud kitchen in Chennai."
     />
     <meta
       property="og:image"
-      content="https://mithaiji.in/assets/mithaiji02.png"
+      content="https://mithaiji.vercel.app/assets/mithaiji02.png"
     />
-    <meta property="og:url" content="https://mithaiji.in/" />
+    <meta property="og:url" content="https://mithaiji.vercel.app/" />
     <meta property="og:type" content="website" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Mithaiji | Authentic Indian Sweets & Savouries"
-    />
+    <meta name="twitter:title" content="Mithaiji | Authentic Indian Sweets & Savouries" />
     <meta
       name="twitter:description"
-      content="Traditional sweets made with pure ghee, curated for your festive and gifting needs. Discover Mithaiji!"
+      content="Traditional sweets made with pure ghee, curated for your festive and gifting needs. Discover Mithaiji in Chennai!"
     />
     <meta
       name="twitter:image"
-      content="https://mithaiji.in/assets/mithaiji02.png"
+      content="https://mithaiji.vercel.app/assets/mithaiji02.png"
     />
 
-
+    <!-- Local Business & FoodEstablishment Schema -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "FoodEstablishment"],
         "name": "Mithaiji",
-        "image": "https://mithaiji.in/assets/mithaiji02.png",
-        "url": "https://mithaiji.in",
-        "telephone": "+91-XXXXXXXXXX",
+        "image": "https://mithaiji.vercel.app/assets/mithaiji02.png",
+        "url": "https://mithaiji.vercel.app",
+        "telephone": "+91-9840326318",
         "address": {
           "@type": "PostalAddress",
+          "streetAddress": "24, Mambalam High Rd, Parthasarathi Puram, T. Nagar",
           "addressLocality": "Chennai",
           "addressRegion": "Tamil Nadu",
-          "postalCode": "600XXX",
+          "postalCode": "600017",
           "addressCountry": "IN"
         },
         "description": "Mithaiji is a cloud kitchen crafting authentic Indian sweets and savouries with pure ghee and zero preservatives. Ideal for corporate gifting, wedding hampers, and festive celebrations.",
@@ -70,67 +67,94 @@
           "name": "Smt. Sapna Bohra"
         },
         "foundingDate": "2019-08",
+        "areaServed": "Chennai",
         "sameAs": [
-          "https://www.instagram.com/mithaiji",
-          "https://www.facebook.com/mithaiji",
-          "https://www.swiggy.com/restaurants/mithaiji-chennai"
+          "https://www.instagram.com/mithaiji.chennai",
+          "https://maps.app.goo.gl/AmJCXa6u7VAqivaY7"
         ]
       }
     </script>
 
-
+    <!-- Products Schema -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@graph": [
           {
             "@type": "Product",
-            "name": "Kaju Katli",
-            "image": "https://mithaiji.in/assets/products/kaju-katli.jpg",
-            "description": "Traditional diamond-cut Kaju Katli made with 100% cashew and pure ghee. No preservatives.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Mithaiji"
-            },
+            "name": "Besan Chakki",
+            "image": "https://mithaiji.vercel.app/assets/products/besan-chakki.jpg",
+            "description": "Soft, melt-in-mouth Besan Chakki made with roasted gram flour and pure ghee.",
+            "brand": { "@type": "Brand", "name": "Mithaiji" },
             "offers": {
               "@type": "Offer",
               "priceCurrency": "INR",
-              "price": "450",
-              "itemCondition": "https://schema.org/NewCondition",
+              "price": "380",
               "availability": "https://schema.org/InStock"
             }
           },
           {
             "@type": "Product",
-            "name": "Lal Sev",
-            "image": "https://mithaiji.in/assets/products/lal-sev.jpg",
-            "description": "Crispy, spicy Lal Sev made with gram flour and traditional spices. A savory delight!",
-            "brand": {
-              "@type": "Brand",
-              "name": "Mithaiji"
-            },
+            "name": "Motichur Ladoo",
+            "image": "https://mithaiji.vercel.app/assets/products/motichur-ladoo.jpg",
+            "description": "Rich and soft Motichur Ladoo made with boondi and ghee, perfect for celebrations.",
+            "brand": { "@type": "Brand", "name": "Mithaiji" },
             "offers": {
               "@type": "Offer",
               "priceCurrency": "INR",
-              "price": "180",
-              "itemCondition": "https://schema.org/NewCondition",
+              "price": "400",
+              "availability": "https://schema.org/InStock"
+            }
+          },
+          {
+            "@type": "Product",
+            "name": "Madras Mixture",
+            "image": "https://mithaiji.vercel.app/assets/products/madras-mixture.jpg",
+            "description": "Crunchy Madras Mixture with nuts and spices – a South Indian savoury classic.",
+            "brand": { "@type": "Brand", "name": "Mithaiji" },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "INR",
+              "price": "160",
+              "availability": "https://schema.org/InStock"
+            }
+          },
+          {
+            "@type": "Product",
+            "name": "Nylon Ghantiya",
+            "image": "https://mithaiji.vercel.app/assets/products/nylon-ghantiya.jpg",
+            "description": "Crispy Nylon Ghantiya made with seasoned besan. Light, tasty, and crunchy.",
+            "brand": { "@type": "Brand", "name": "Mithaiji" },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "INR",
+              "price": "160",
+              "availability": "https://schema.org/InStock"
+            }
+          },
+          {
+            "@type": "Product",
+            "name": "Badam Anjeer Bites",
+            "image": "https://mithaiji.vercel.app/assets/products/badam-anjeer.jpg",
+            "description": "Healthy and rich Badam Anjeer bites – sugar-free and power-packed with dry fruits.",
+            "brand": { "@type": "Brand", "name": "Mithaiji" },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "INR",
+              "price": "520",
               "availability": "https://schema.org/InStock"
             }
           },
           {
             "@type": "Product",
             "name": "Festive Hamper Box",
-            "image": "https://mithaiji.in/assets/products/festive-hamper.jpg",
+            "image": "https://mithaiji.vercel.app/assets/products/festive-hamper.jpg",
             "description": "Customised festive hamper box with assorted sweets and savouries. Ideal for gifting.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Mithaiji"
-            },
+            "brand": { "@type": "Brand", "name": "Mithaiji" },
             "offers": {
               "@type": "Offer",
               "priceCurrency": "INR",
               "price": "999",
-              "itemCondition": "https://schema.org/NewCondition",
               "availability": "https://schema.org/InStock"
             }
           }

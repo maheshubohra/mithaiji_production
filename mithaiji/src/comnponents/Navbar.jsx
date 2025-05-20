@@ -5,11 +5,15 @@ import {
   FaTwitter,
   FaLinkedin,
   FaArrowUp,
+  FaWhatsapp,
+  FaMap,
+  FaGoogle,
 } from "react-icons/fa";
 // eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
+import { Link, Links } from "react-router-dom";
 
-const Navbar = ({ about, product, home }) => {
+const Navbar = ({ about, product }) => {
   const [fly, setFly] = useState(false);
   const [on, setOn] = useState(false);
   const handleClick = () => {
@@ -40,32 +44,25 @@ const Navbar = ({ about, product, home }) => {
         <div className="flex justify-center space-x-2 items-center">
           <span className="text-[#303030] font-bold">Follow Us On - </span>
           <a
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaFacebook className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
-          </a>
-          <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/mithaiji.chennai?igsh=MTVzMXU3ZHV2c3p3OA=="
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaInstagram className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://wa.me/919840326318?text=Hello%21%20I%20would%20like%20to%20enquire%20about%20your%20offerings."
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
+            <FaWhatsapp className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://maps.app.goo.gl/AmJCXa6u7VAqivaY7"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
+            <FaGoogle className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
           </a>
         </div>
       </div>
@@ -95,7 +92,9 @@ const Navbar = ({ about, product, home }) => {
               <li className="hover:text-[#FFA987] cursor-pointer">
                 <a onClick={product}>Products</a>
               </li>
-              <li className="hover:text-[#FFA987] cursor-pointer">Contact</li>
+              <li className="hover:text-[#FFA987] cursor-pointer">
+                <Link href="/contactus">Contact</Link>
+              </li>
             </ul>
           )}
           <ul className="space-x-4 text-[#801336] hidden lg:flex">
@@ -105,10 +104,13 @@ const Navbar = ({ about, product, home }) => {
             <li className="hover:text-[#FFA987] cursor-pointer">
               <a onClick={product}>Products</a>
             </li>
-            <li className="hover:text-[#FFA987] cursor-pointer">Contact</li>
+            <li className="hover:text-[#FFA987] cursor-pointer">
+              <Link to="/contactus">Contact</Link>
+            </li>
           </ul>
         </div>
       </nav>
+
       <AnimatePresence>
         {showScrollBtn && (
           <motion.div
@@ -122,7 +124,7 @@ const Navbar = ({ about, product, home }) => {
             <motion.button
               onClick={() => {
                 setFly(true);
-                home();
+                window.scrollTo({ top: 0, behavior: "smooth" });
               }}
               initial={{ scale: 1, rotate: 0 }}
               animate={

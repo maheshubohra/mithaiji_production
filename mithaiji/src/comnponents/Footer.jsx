@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaWhatsapp, FaGoogle } from "react-icons/fa";
 
 const Footer = ({ about, products }) => {
   return (
@@ -51,32 +51,25 @@ const Footer = ({ about, products }) => {
 
           <div className="flex justify-center space-x-6">
             <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebook className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
-            </a>
-            <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/mithaiji.chennai?igsh=MTVzMXU3ZHV2c3p3OA=="
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://wa.me/919840326318?text=Hello%21%20I%20would%20like%20to%20enquire%20about%20your%20offerings."
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTwitter className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
+              <FaWhatsapp className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://maps.app.goo.gl/AmJCXa6u7VAqivaY7"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
+              <FaGoogle className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
             </a>
           </div>
         </div>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const About = () => {
   return (
     <>
@@ -23,9 +25,9 @@ const About = () => {
           carefully curated to suit your budget and occasion. We believe in
           spreading happiness through sweets, making every celebration a little
           more joyful and memorable{" "}
-          <a className="underline text-[#801336]" href="/about">
+          <Link className="underline text-[#801336]" to="/about">
             Learn More About Mithaji
-          </a>
+          </Link>
         </p>
       </div>
     </>
