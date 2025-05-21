@@ -31,9 +31,7 @@ const ContactUs = () => {
               <FaMapMarkerAlt className="text-2xl text-[#801336]" />
             </div>
             <p className="text-lg md:text-xl font-medium leading-relaxed">
-              123 Mithaiji Street,
-              <br />
-              Chennai, Tamil Nadu, India – 600001
+              24, Mambalam High Rd, Parthasarathi Puram, T. Nagar, Chennai, Tamil Nadu 600017
             </p>
           </div>
 
