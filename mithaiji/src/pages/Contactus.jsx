@@ -31,7 +31,12 @@ const ContactUs = () => {
               <FaMapMarkerAlt className="text-2xl text-[#801336]" />
             </div>
             <p className="text-lg md:text-xl font-medium leading-relaxed">
+<<<<<<< HEAD
               24, Mambalam High Rd, Parthasarathi Puram, T. Nagar, Chennai, Tamil Nadu 600017
+=======
+              24, Mambalam High Rd, Parthasarathi Puram, <br />
+              T.Nagar, Chennai, Tamil Nadu 600017
+>>>>>>> d97edf2 (feat: added order now button adn made ui changes)
             </p>
           </div>
 
@@ -39,7 +44,7 @@ const ContactUs = () => {
             <div className="bg-[#ffe1d2] p-3 rounded-full shadow-sm">
               <FaPhoneAlt className="text-xl text-[#801336]" />
             </div>
-            <p className="text-lg md:text-xl font-medium">+91 98403 26318</p>
+            <p className="text-lg md:text-xl font-medium">+91 9445698920</p>
           </div>
 
           <div className="pt-2">
@@ -54,7 +59,7 @@ const ContactUs = () => {
                 <FaInstagram className="text-4xl text-[#E1306C] hover:text-[#C13584]" />
               </a>
               <a
-                href="https://wa.me/919840326318?text=Hello%21%20I%20would%20like%20to%20enquire%20about%20your%20offerings."
+                href="https://wa.me/9445698920?text=Hello%21%20I%20would%20like%20to%20enquire%20about%20your%20offerings."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition transform hover:scale-110"

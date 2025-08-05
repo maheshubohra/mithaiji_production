@@ -64,9 +64,9 @@ const Products = () => {
               <h5 className="text-xl tracking-tight text-slate-900 my-2 font-bold">
                 {product.name}
               </h5>
-              <button
+              <a
                 className="flex items-center justify-center rounded-md bg-slate-900 px-5 py-2.5 text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300"
-                onClick={() => console.log("hello")}
+                href="https://wa.me/9445698920?text=Hello%21%20I%20would%20like%20to%20order%20from%20you."
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -82,8 +82,8 @@ const Products = () => {
                     d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                   />
                 </svg>
-                Add to cart
-              </button>
+                Order Now
+              </a>
             </div>
           </div>
         ))}

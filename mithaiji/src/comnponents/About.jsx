@@ -8,7 +8,7 @@ const About = () => {
       </h2>
       <div className="flex justify-center items-center gap-4 bg-[#FFEFEA] rounded-3xl p-4 lg:p-8 mx-auto max-w-7xl mt-5 mb-6 flex-col lg:flex-row">
         <img
-          src="/assets/mithai/Assorted_Sweets.jpg"
+          src="/assets/mithai/Sev_Boondi.jpeg"
           alt=""
           className="lg:float-left w-1/2 lg:w-1/4 rounded-2xl"
         />

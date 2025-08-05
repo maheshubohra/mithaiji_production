@@ -7,20 +7,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Hero = () => {
-  const el = useRef(null);
   const sw = useRef(null);
 
   useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: ["With You In Every Ocassion"],
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 30,
-      showCursor: false,
-    });
-
     const swiped = new Typed(sw.current, {
-      strings: ["Sweets", "Snacks", "Hampers", "Sweets•Snacks•Hampers"],
+      strings: ["Sweets", "Snacks", "Hampers", "Sweets • Savouries • Hampers"],
       typeSpeed: 100,
       backSpeed: 30,
       showCursor: false,
@@ -28,7 +19,6 @@ const Hero = () => {
     });
 
     return () => {
-      typed.destroy();
       swiped.destroy();
     };
   }, []);
@@ -64,14 +54,10 @@ const Hero = () => {
 
   return (
     <section className="relative w-full min-h-[80vh] lg:min-h-screen pt-32 pb-16">
-      
       <div className="relative z-20 text-center mb-12 rounded-3xl px-4 py-3 shadow-lg bg-[#FFEFEA] flex flex-col items-center justify-center mx-auto max-w-fit">
         <div className="h-[40px] mb-0 lg:mb-4">
-          <h1
-            ref={el}
-            className="text-xl md:text-2xl lg:text-3xl font-bold text-[#303030]"
-          >
-            &nbsp;
+          <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#303030] font-serif">
+            - with you In every ocassion -
           </h1>
         </div>
         <div className="h-[32px]">
@@ -84,7 +70,6 @@ const Hero = () => {
         </div>
       </div>
 
-      
       <div className="relative w-full max-w-7xl mx-auto px-4 hero-slider">
         <Slider {...settings}>
           {images.map((src, i) => (

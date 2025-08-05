@@ -1,14 +1,6 @@
 import { useEffect, useState } from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-  FaLinkedin,
-  FaArrowUp,
-  FaWhatsapp,
-  FaMap,
-  FaGoogle,
-} from "react-icons/fa";
+import { FaInstagram, FaArrowUp, FaWhatsapp } from "react-icons/fa";
+import { IoLocationSharp } from "react-icons/io5";
 // eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
 import { Link, Links } from "react-router-dom";
@@ -39,7 +31,7 @@ const Navbar = ({ about, product }) => {
       <div className="w-full h-auto lg:w-full bg-[#FFEFEA] fixed top-0 left-0 z-[60] text-white py-2 text-xs lg:text-md flex justify-evenly items-center flex-col lg:flex-row">
         <div className="text-[#303030] font-bold">
           For Enquiry -&gt; Call Us On -{" "}
-          <span className="font-extrabold">9840326318</span>
+          <span className="font-extrabold">9445698920</span>
         </div>
         <div className="flex justify-center space-x-2 items-center">
           <span className="text-[#303030] font-bold">Follow Us On - </span>
@@ -51,7 +43,7 @@ const Navbar = ({ about, product }) => {
             <FaInstagram className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
           </a>
           <a
-            href="https://wa.me/919840326318?text=Hello%21%20I%20would%20like%20to%20enquire%20about%20your%20offerings."
+            href="https://wa.me/9445698920?text=Hello%21%20I%20would%20like%20to%20enquire%20about%20your%20offerings."
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -62,7 +54,7 @@ const Navbar = ({ about, product }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGoogle className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
+            <IoLocationSharp className="text-2xl text-[#801336] hover:text-red-600 transition duration-300" />
           </a>
         </div>
       </div>
