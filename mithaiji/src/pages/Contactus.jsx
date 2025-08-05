@@ -31,12 +31,7 @@ const ContactUs = () => {
               <FaMapMarkerAlt className="text-2xl text-[#801336]" />
             </div>
             <p className="text-lg md:text-xl font-medium leading-relaxed">
-<<<<<<< HEAD
               24, Mambalam High Rd, Parthasarathi Puram, T. Nagar, Chennai, Tamil Nadu 600017
-=======
-              24, Mambalam High Rd, Parthasarathi Puram, <br />
-              T.Nagar, Chennai, Tamil Nadu 600017
->>>>>>> d97edf2 (feat: added order now button adn made ui changes)
             </p>
           </div>
 
